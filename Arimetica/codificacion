@@ -1,0 +1,27 @@
+
+
+i_inf = i_(inf-1) + (long_(i-1) * lim_inf)
+
+i_sup = i_(inf-1) + (long_(i-1) * lim_sup)
+
+
+TABLAS  LIM
+
+
+i	Iinf	Isup
+-	0.0		1.0
+a3	0.4		0.8	
+a1	0.4		0.48
+a4	0.464	0.48	
+a2	0.4672	0.4704	
+
+Promedio = 0.4688
+
+Decodificacion
+
+Segun la tabla en que simbolo se encuentra.
+
+0.4688					a3
+(0.4688-0.4)/0.4=0.172	a1
+(0.172-0.0)/0.2=0.86	a4
+(0.86-0.8)/0.2=0.3		a2
